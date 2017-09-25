@@ -1,34 +1,37 @@
 <!DOCTYPE html>
-
-<html lang="fr">
-   
-    <head>
-        <meta charset="utf-8"/>
-        <title>Construire ensemble</title>
-        <link rel="stylesheet" href="./style/style.css" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <link rel="icon" type="image/png" href="./media/img/favicon.png" />
-        <link href="https://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet">
-    </head>
-
-   	<body>
-		<?php include "./include/header.php"; ?>	
-<div class="contenu">
-	<div class="bandeau">
-		<div class="image-texte1">
-		<img src="img/thumb_2_small.jpg">
-		<p>Haec subinde Constantius audiens et quaedam referente Thalassio doctus, quem eum odisse iam conpererat lege communi, scribens ad Caesarem blandius adiumenta paulatim illi subtraxit, sollicitari se simulans ne, uti est militare otium fere tumultuosum, in eius perniciem conspiraret, solisque scholis iussit esse contentum palatinis.Haec subinde Constantius audiens et quaedam referente Thalassio doctus, quem eum odisse iam conpererat lege communi, scribens ad Caesarem blandius adiumenta paulatim illi subtraxit, sollicitari se simulans ne, uti est militare otium fere tumultuosum, in eius perniciem conspiraret, solisque scholis iussit esse contentum palatinis.</p>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+<body>
+	<div class="Blocprogramme">
+		<div id="bloc1">
+			<div class="blocimage">
+				<img src="img/groupe.jpg">
+			</div>
+			<div class="bloctext">
+				<h2>TITRE</h2>
+				<p>Postremo ad id indignitatis est ventum, ut cum peregrini ob formidatam haut ita dudum alimentorum inopiam pellerentur ab urbe praecipites, sectatoribus disciplinarum liberalium inpendio paucis sine respiratione ulla extrusis, tenerentur minimarum adseclae veri, quique id simularunt ad tempus, et tria milia saltatricum ne interpellata quidem cum choris</p>
+			</div>
 		</div>
-		<div class="image-texte2">
-		<img src="img/thumb_2_small.jpg">
-		<p>Haec subinde Constantius audiens et quaedam referente Thalassio doctus, quem eum odisse iam conpererat lege communi, scribens ad Caesarem blandius adiumenta paulatim illi subtraxit, sollicitari se simulans ne, uti est militare otium fere tumultuosum, in eius perniciem conspiraret, solisque scholis iussit esse contentum palatinis.Haec subinde Constantius audiens et quaedam referente Thalassio doctus, quem eum odisse iam conpererat lege communi, scribens ad Caesarem blandius adiumenta paulatim illi subtraxit, sollicitari se simulans ne, uti est militare otium fere tumultuosum, in eius perniciem conspiraret, solisque scholis iussit esse contentum palatinis.</p>
+		<div id="bloc2">
+			<div class="blocimage">
+				<img src="img/groupe.jpg">
+			</div>
+			<div class="bloctext">
+				<h2>TITRE</h2>
+				<p>Postremo ad id indignitatis est ventum, ut cum peregrini ob formidatam haut ita dudum alimentorum inopiam pellerentur ab urbe praecipites, sectatoribus disciplinarum liberalium inpendio paucis sine respiratione ulla extrusis, tenerentur minimarum adseclae veri, quique id simularunt ad tempus, et tria milia saltatricum ne interpellata quidem cum choris</p>
+			</div>
 		</div>
-		<div class="image-texte3">
-		<img src="img/thumb_2_small.jpg">
-		<p>Haec subinde Constantius audiens et quaedam referente Thalassio doctus, quem eum odisse iam conpererat lege communi, scribens ad Caesarem blandius adiumenta paulatim illi subtraxit, sollicitari se simulans ne, uti est militare otium fere tumultuosum, in eius perniciem conspiraret, solisque scholis iussit esse contentum palatinis.Haec subinde Constantius audiens et quaedam referente Thalassio doctus, quem eum odisse iam conpererat lege communi, scribens ad Caesarem blandius adiumenta paulatim illi subtraxit, sollicitari se simulans ne, uti est militare otium fere tumultuosum, in eius perniciem conspiraret, solisque scholis iussit esse contentum palatinis.</p>
+		<div id="bloc3">
+			<div class="blocimage">
+				<img src="img/groupe.jpg">
+			</div>
+			<div class="bloctext">
+				<h2>TITRE</h2>
+				<p>Postremo ad id indignitatis est ventum, ut cum peregrini ob formidatam haut ita dudum alimentorum inopiam pellerentur ab urbe praecipites, sectatoribus disciplinarum liberalium inpendio paucis sine respiratione ulla extrusis, tenerentur minimarum adseclae veri, quique id simularunt ad tempus, et tria milia saltatricum ne interpellata quidem cum choris</p>
+			</div>
 		</div>
 	</div>
-</div>
-		<?php include "./include/footer.php;"; ?>
-   	</body>
-</html>
+</body>
+</head>

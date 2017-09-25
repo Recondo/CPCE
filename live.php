@@ -1,90 +1,110 @@
 <!DOCTYPE html>
-
-<html lang="fr">
-   
-    <head>
-        <meta charset="utf-8"/>
-        <title>Construire ensemble</title>
-        <link rel="stylesheet" href="./style/style.css" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <link rel="icon" type="image/png" href="./media/img/favicon.png" />
-        <link href="https://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet">
-    </head>
-
-   	<body>
-		<?php include "./include/header.php"; ?>	
-	<center>
-		<h2>Live</h2>
-	</center>
-
-<br><br><br>
-	
-<div id="bloc1">
-	<center>
-	<object width="425" height="355">
-		<param name="movie" value="http://www.youtube.com/v/_etwz7NkemE&hl=fr"></param>
-		<param name="wmode" value="transparent"></param>
-			<embed src="http://www.youtube.com/v/_etwz7NkemE&hl=fr" type="application/x-shockwave-flash" wmode="transparent" width="150" height="70"></embed>
-			<embed src="http://www.youtube.com/v/_etwz7NkemE&hl=fr" type="application/x-shockwave-flash" wmode="transparent" width="150" height="70"></embed>
-			<embed src="http://www.youtube.com/v/_etwz7NkemE&hl=fr" type="application/x-shockwave-flash" wmode="transparent" width="150" height="70"></embed>
-			<embed src="http://www.youtube.com/v/_etwz7NkemE&hl=fr" type="application/x-shockwave-flash" wmode="transparent" width="150" height="70"></embed>
-		</object>
-	</center>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Playfair+Display" />
+	<meta charset="UTF-8">
+<body>
+	<div class="videos">
+		<div class="vid1">
+			<img src="img/nat.jpg" class="image">
+		<div class="overlay">
+    	<div class="textlive">Titre vidéo</div>
+  	</div>
+	</div>
+	<div class="vid2">
+	<img src="img/nat.jpg" class="image">
+	<div class="overlay">
+    	<div class="textlive">Titre vidéo</div>
+  	</div>
+	</div>
+	<div class="vid3">
+	<img src="img/nat.jpg" class="image">
+	<div class="overlay">
+    	<div class="textlive">Titre vidéo</div>
+  	</div>
+	</div>
+	<div class="vid4">
+	<img src="img/nat.jpg" class="image">
+	<div class="overlay">
+    	<div class="textlive">Titre vidéo</div>
+  	</div>
+	</div>
+	<div class="vid5">
+	<img src="img/nat.jpg" class="image">
+	<div class="overlay">
+    	<div class="textlive">Titre vidéo</div>
+  	</div>
+	</div>
+	<div class="vid6">
+	<img src="img/nat.jpg" class="image">
+	<div class="overlay">
+    	<div class="textlive">Titre vidéo</div>
+  	</div>
+	</div>
+	<div class="vid7">
+	<img src="img/nat.jpg" class="image">
+	<div class="overlay">
+    	<div class="textlive">Titre vidéo</div>
+  	</div>
+	</div>
+	<div class="vid8">
+	<img src="img/nat.jpg" class="image">
+	<div class="overlay">
+    	<div class="textlive">Titre vidéo</div>
+  	</div>
+	</div>
+	<div class="vid9">
+	<img src="img/nat.jpg" class="image">
+	<div class="overlay">
+    	<div class="textlive">Titre vidéo</div>
+  	</div>
+	</div>
+	<div class="vid10">
+	<img src="img/nat.jpg" class="image">
+	<div class="overlay">
+    	<div class="textlive">Titre vidéo</div>
+  	</div>
+	</div>
+	<div class="vid11">
+	<img src="img/nat.jpg" class="image">
+	<div class="overlay">
+    	<div class="textlive">Titre vidéo</div>
+  	</div>
+	</div>
+	<div class="vid12">
+	<img src="img/nat.jpg" class="image">
+	<div class="overlay">
+    	<div class="textlive">Titre vidéo</div>
+  	</div>
+	</div>
+	<div class="vid13">
+	<img src="img/nat.jpg" class="image">
+	<div class="overlay">
+    	<div class="textlive">Titre vidéo</div>
+  	</div>
+	</div>
+	<div class="vid14">
+	<img src="img/nat.jpg" class="image">
+	<div class="overlay">
+    	<div class="textlive">Titre vidéo</div>
+  	</div>
+	</div>
+	<div class="vid15">
+	<img src="img/nat.jpg" class="image">
+	<div class="overlay">
+    	<div class="textlive">Titre vidéo</div>
+  	</div>
+	</div>
+	<div class="vid16">
+	<img src="img/nat.jpg" class="image">
+	<div class="overlay">
+    	<div class="textlive">Titre vidéo</div>
+  	</div>
+	</div>
 </div>
 
-<br><br><br><br>
-<div id="bloc2">
-	<center>
-	<object width="425" height="355">
-		<param name="movie" value="http://www.youtube.com/v/_etwz7NkemE&hl=fr"></param>
-		<param name="wmode" value="transparent"></param>
-	<embed src="http://www.youtube.com/v/_etwz7NkemE&hl=fr" type="application/x-shockwave-flash" wmode="transparent" width="260" height="160"></embed>
-	</object>
-	</center>
+<div class="twit-timeline">
+<a class="twitter-timeline" data-width="500" data-height="880" href="https://twitter.com/TwitterDev">Tweets by TwitterDev</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
-
-
-
-<div id="bloc3">
-	<center>
-	<object width="425" height="355">
-		<param name="movie" value="http://www.youtube.com/v/_etwz7NkemE&hl=fr"></param>
-		<param name="wmode" value="transparent"></param>
-	<embed src="http://www.youtube.com/v/_etwz7NkemE&hl=fr" type="application/x-shockwave-flash" wmode="transparent" width="150" height="70"></embed>
-	<embed src="http://www.youtube.com/v/_etwz7NkemE&hl=fr" type="application/x-shockwave-flash" wmode="transparent" width="150" height="70"></embed>
-	<embed src="http://www.youtube.com/v/_etwz7NkemE&hl=fr" type="application/x-shockwave-flash" wmode="transparent" width="150" height="70"></embed>
-	<embed src="http://www.youtube.com/v/_etwz7NkemE&hl=fr" type="application/x-shockwave-flash" wmode="transparent" width="150" height="70"></embed>
-	</object>
-	</center>
-</div>
-
-
-<div id="bloc4">
-	<center>
-	<object width="425" height="355">
-		<param name="movie" value="http://www.youtube.com/v/_etwz7NkemE&hl=fr"></param>
-		<param name="wmode" value="transparent"></param>
-	<embed src="http://www.youtube.com/v/_etwz7NkemE&hl=fr" type="application/x-shockwave-flash" wmode="transparent" width="150" height="70"></embed>
-	<embed src="http://www.youtube.com/v/_etwz7NkemE&hl=fr" type="application/x-shockwave-flash" wmode="transparent" width="150" height="70"></embed>
-	<embed src="http://www.youtube.com/v/_etwz7NkemE&hl=fr" type="application/x-shockwave-flash" wmode="transparent" width="150" height="70"></embed>
-	<embed src="http://www.youtube.com/v/_etwz7NkemE&hl=fr" type="application/x-shockwave-flash" wmode="transparent" width="150" height="70"></embed>
-	</object>
-	</center>
-</div>
-
-
-<div id="bloc5">
-	<center>
-	<object width="425" height="355">
-		<param name="movie" value="http://www.youtube.com/v/_etwz7NkemE&hl=fr"></param>
-		<param name="wmode" value="transparent"></param>
-	<embed src="http://www.youtube.com/v/_etwz7NkemE&hl=fr" type="application/x-shockwave-flash" wmode="transparent" width="150" height="70"></embed>
-	<embed src="http://www.youtube.com/v/_etwz7NkemE&hl=fr" type="application/x-shockwave-flash" wmode="transparent" width="150" height="70"></embed>
-	<embed src="http://www.youtube.com/v/_etwz7NkemE&hl=fr" type="application/x-shockwave-flash" wmode="transparent" width="150" height="70"></embed>
-	<embed src="http://www.youtube.com/v/_etwz7NkemE&hl=fr" type="application/x-shockwave-flash" wmode="transparent" width="150" height="70"></embed>	
-	</object>
-	</center>
-</div>
-		<?php include "./include/footer.php"; ?>
-   	</body>
-</html>
