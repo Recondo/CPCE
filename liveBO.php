@@ -28,7 +28,7 @@
 				<br>
 				<?php 
 					          
-					$query = $bdd->prepare('SELECT titre_video, Id_video FROM video');
+					$query = $bdd->prepare('SELECT titre_video, description_video, Id_video FROM video');
 					          
 					$query->execute();
 					$results = $query->fetchAll();
@@ -38,6 +38,7 @@
 					<thead>
 						<tr>
 							<th>Vidéo</th>
+							<th>Description</th>
 							<th>Actions</th>
 						</tr>
 					</thead>		
@@ -50,6 +51,8 @@
 							<td>
 								<?php echo $video['titre_video']; ?>
 							</td>
+							<td>
+								<?php echo $video['description_video']; ?>
 							<td>
 								<form name="supp" method="post">
 								<input type="submit" name="suppression" value="Supprimer">
