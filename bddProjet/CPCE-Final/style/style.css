@@ -1,0 +1,81 @@
+/*Header*/
+header{
+    text-align: center;
+}
+
+/*logo*/
+
+.nomLycee
+{
+	font-family: 'Playfair Display';
+	font-style: italic;
+	text-transform: none;
+	font-size: 1.5rem;
+	transition: all,0.8s;
+	font-weight: 500;
+	line-height: 1.1;
+	color: inherit;
+	margin: .67em 0;
+	margin-top: 0;
+	box-sizing: border-box;
+	-webkit-margin-before: 0.00em;
+	-webkit-margin-after: 0.67em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+
+@media (min-width: 768px)
+{
+	.nomLycee
+	{
+		font-size: 2.571rem;
+		margin-bottom: 10px;
+	}
+}
+
+.devise
+{
+	font-family: 'Lato',sans-serif;
+	letter-spacing: 7px;
+	text-transform: none;
+	font-weight: bold;
+    line-height: 1.1;
+    font-size: 0.8rem;
+    transition: all,0.8s;
+    color: inherit;
+	margin: .67em 0;
+	margin-top: 0;
+	box-sizing: border-box;
+	-webkit-margin-before: 0.00em;
+	-webkit-margin-after: 1.67em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+
+@media (min-width: 991px)
+{
+	.devise
+	{
+    	font-size: 1rem;
+    	margin-bottom: 40px;
+	}
+}
+
+/*bandeau--header*/
+
+.img-bandeau
+{ 
+    padding: 0;
+    width:99vw;
+    height: auto;
+    display: none;
+    transition: all,0.8s;
+}
+
+@media (min-width: 768px)
+{
+	.img-bandeau
+	{
+		display: block
+	}
+}
