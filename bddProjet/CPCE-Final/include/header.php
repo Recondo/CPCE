@@ -16,7 +16,7 @@
   <div id="nav-container">
     <ul>
       <div class="lesLi">
-          <li class="nav-li active-nav"><a href="accueil.php">Accueil</a></li>
+          <li class="nav-li active-nav"><a href="accueil.php">World Cafée</a></li>
           <li class="nav-li"><a href="programme.php">Programme</a></li>
           <li class="nav-li"><a href="live.php">Live</a></li>
           <li class="nav-li"><a href="retour.php">Témoignages</a></li>
